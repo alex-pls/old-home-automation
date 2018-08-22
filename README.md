@@ -1,6 +1,6 @@
 # Archive of Old Home-Automation Software Projects
 
-These software is provided for educational purposes only.
+All these software and material are provided for educational purposes only.
 
 Most of the projects were **developed in 2008-2009** in the framework of WOSH umbrella project.
 
