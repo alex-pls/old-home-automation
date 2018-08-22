@@ -1,0 +1,15 @@
+#! /bin/sh
+
+
+SPEED=8000
+
+MODEM_TYPE=V253modem
+COMPRESSION=8
+
+file_name=$1
+file_title=`echo $1|sed 's/\..\{3\}$//'`
+
+
+wavtopvf $1 | pvfspeed -s $SPEED > $file_title.pvf
+pvftormd $MODEM_TYPE $COMPRESSION $file_title.pvf $file_title.rmd
+

@@ -1,0 +1,10 @@
+Dial-PauseString: ;postd=
+MIDlet-1: WOSHDialToneClient, WOSHDialToneClient.png, com.opensmarthome.mobile.DToneClient
+MIDlet-Jar-Size: 25949
+MIDlet-Jar-URL: WOSHDialToneClient.jar
+MIDlet-Name: WOSHDialToneClient
+MIDlet-Vendor: Unknown
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-2.0
+WOSH-PhoneNumber: +123123123

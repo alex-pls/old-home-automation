@@ -1,0 +1,22 @@
+# QMAKE Configuration file
+# Copyright (c) 2009, WOSH - Wide Open Smart Home 
+# by Alessandro Polo - OpenSmartHome.com
+# All rights reserved.
+#######################################################
+# Revision $Id: WindowsMobile.pro 380 2009-07-05 03:22:45Z alex $
+#######################################################
+
+win32 {
+
+	message( "WOSH - BUNDLES [Devices] - WindowsMobile" )
+
+
+	HEADERS += bundles/devices/WindowsMobile/WindowsMobileImpl.h
+	SOURCES += bundles/devices/WindowsMobile/WindowsMobileImpl.cpp
+
+	HEADERS += bundles/devices/WindowsMobile/WindowsMobileBundle.h
+	SOURCES += bundles/devices/WindowsMobile/WindowsMobileBundle.cpp
+
+
+
+}

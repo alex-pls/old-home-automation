@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<WOSH>
+  <ItemsGroup>    <title>Appliances</title>    <type>APPLIANCE</type>
+    <Item>      <label>Garden Door</label>      <dmtfcode>11</dmtfcode>      <value>door_garden</value>    </Item>
+  </ItemsGroup>
+  <ItemsGroup>    <title>Lights</title>    <type>LIGHT</type>	    <Item>      <label>Garage</label>      <dmtfcode>21</dmtfcode>      <value>light_garage</value>    </Item>    <Item>      <label>Garden</label>      <dmtfcode>22</dmtfcode>      <value>lights_garden</value>    </Item>    <Item>      <label>BedRoom Nord</label>      <dmtfcode>23</dmtfcode>      <value>light_bedroom_nord</value>    </Item>
+  </ItemsGroup>
+  <ItemsGroup>    <title>Reports</title>    <type>REPORTS</type>
+    <Item>      <label>Lights</label>      <dmtfcode>31</dmtfcode>      <value>lights</value>    </Item>    <Item>      <label>Full</label>      <dmtfcode>22</dmtfcode>      <value>full</value>    </Item>  </ItemsGroup></WOSH>

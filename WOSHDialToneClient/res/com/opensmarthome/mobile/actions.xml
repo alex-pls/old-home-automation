@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<WOSH>
+
+
+  <Actions>
+
+    <Action>
+      <label>Turn ON</label>
+      <name>wosh.x10.turn.on</name>
+      <dmtfcode>11</dmtfcode>
+      <command>/root/scripts/remotex.sh heyu on</command>
+      <description>Turn on lights o appliances</description>
+	  <arguments>
+        <argument position="1">
+          <argtype>LIGHT</argtype>
+          <argtype>APPLIANCE</argtype>
+          <argmultiple>true</argmultiple>
+		</argument>
+	  </arguments>
+	  <return>
+	    <exitcode>0</exitcode>
+		<echo>ACK</echo>
+	  </return>
+    </Action>
+
+    <Action>
+      <label>Turn OFF</label>
+      <name>wosh.x10.turn.off</name>
+      <dmtfcode>12</dmtfcode>
+      <command>/root/scripts/remotex.sh heyu off</command>
+      <description>Turn off lights o appliances</description>
+	  <arguments>
+        <argument position="1">
+          <argtype>LIGHT</argtype>
+          <argtype>APPLIANCE</argtype>
+          <argmultiple>true</argmultiple>
+		</argument>
+	  </arguments>
+	  <return>
+	    <exitcode>0</exitcode>
+		<echo>ACK</echo>
+	  </return>
+    </Action>
+
+    <Action>
+      <label>Report</label>
+      <name>wosh.report</name>
+      <dmtfcode>21</dmtfcode>
+      <command>report.sh</command>
+      <description></description>
+	  <arguments>
+        <argument position="1">
+          <argtype>REPORTS</argtype>
+          <argmultiple>false</argmultiple>
+		</argument>
+	  </arguments>
+	  <return>
+	    <exitcode>0</exitcode>
+		<echo>EXIT</echo>
+	  </return>
+    </Action>
+
+    <Action>
+      <label>Open Garden</label>
+      <name>wosh.x10.open</name>
+      <dmtfcode>13</dmtfcode>
+      <command>/root/scripts/remotex.sh heyu gdoor</command>
+      <description>Open Garden door</description>
+	  <arguments/>
+	  <return>
+	    <exitcode>0</exitcode>
+		<echo>ACK</echo>
+	  </return>
+    </Action>
+
+    <Action>
+      <label>CheckMessages</label>
+      <name>wosh.mMessages.check</name>
+      <dmtfcode>31</dmtfcode>
+      <command/>
+      <description/>
+	  <arguments/>
+	  <return>
+	    <exitcode>0</exitcode>
+		<echo>MSG_CHK</echo>
+	  </return>
+    </Action>
+
+    <Action>
+      <label>RecallIfMessages</label>
+      <name>wosh.mMessages.recall</name>
+      <dmtfcode>41</dmtfcode>
+      <command/>
+      <description/>
+	  <arguments/>
+	  <return>
+	    <exitcode>0</exitcode>
+		<echo>MSG_RECALL</echo>
+	  </return>
+    </Action>
+
+  </Actions>
+
+
+</WOSH>

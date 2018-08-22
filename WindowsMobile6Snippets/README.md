@@ -1,0 +1,1 @@
+# Windows Mobile 6 - SnippetsThis software is a plug-in (Bundle) for the WOSH project (running on Windows Mobile device).Last updated on 2009-08-17. Designed for Windows Mobile/CE 6 and implemented in *Microsoft Visual Studio 2008 + Windows Mobile SDK 6 + QT 4.5*.## Features* System status, POOM* Dialing* SMS operations (by users)* SMS sending and notification
